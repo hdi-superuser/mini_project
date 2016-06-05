@@ -1,9 +1,18 @@
-Vấn đề: Cho dãy A, N phần tử nguyên. Hãy in ra tất cả các tập con các khác rỗng của A mà có tổng bằng một số S cho trước.
-Giải quyết: Duyệt bằng cách chia đôi tập hợp, độ phức tạp tính toán O(2^(N/2)).
+Vấn đề: 
+	
+	Cho dãy A, N phần tử nguyên. Hãy in ra tất cả các tập con các khác rỗng của A mà có tổng bằng một số S cho trước.
+
+Giải quyết: 
+
+	Duyệt bằng cách chia đôi tập hợp, độ phức tạp tính toán O(2^(N/2)).
+
 Dữ liệu cho phép: 
-	N <= 55
-	A[i], S <= 2^63 - 1
+	
+	N <= 55;
+	A[i], S <= 2^63 - 1;
+	
 Hướng dẫn sử dụng:
+	
 	- Compile file main.cpp và checker.cpp ra file thực thi (*.exe, *.bin, ...).
 	- Luôn giữ cho các file sau đây ở cùng một thư mục (directory):
 		+ main.*
@@ -34,6 +43,7 @@ Hướng dẫn sử dụng:
 		+ Chạy file thực thi checker.*. Chức năng: Kiểm tra bước đầu kết quả trong file out.txt có chính xác hay không.
 		+ Kiểm tra file out.txt và log.txt
 Ghi chú:
+
 	- Các môi trường biên dịch C++ thông dụng
 		minGW <http://www.mingw.org/>
 		gnu <http://www.gnu.org/>
