@@ -1,3 +1,10 @@
+/*
+	HDI - 6 Jun, 2016
+	Subset problems
+	Solution: Brute force with manual trick
+	Time complexity: O(N^2)
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
