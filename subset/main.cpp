@@ -71,7 +71,7 @@ void process() {
 		for (int j = 1; j <= N/2; j++)
 			if ((i >> (j-1)) & 1) stt[i].idx += a[j-1];
 	}
-	sort(stt, stt + nStt_1 + 1);
+	sort(stt, stt + nStt_1 + 1, cmp);
 	for (int i = 0; i <= nStt_1; i++) c[i] = stt[i].idx;
 	for (int i = N/2; i < N; i++) f.push_back(a[i]);
 	N = f.size();	int nStt_2 = 1 << N;	nStt_2--;
