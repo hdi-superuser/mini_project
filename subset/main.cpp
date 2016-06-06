@@ -15,9 +15,6 @@ typedef long long ll;
 struct data {
 	ll idx;
 	int pos;
-	bool operator < (const data x) {
-		return idx < x.idx;
-	}
 } stt[34000000];
 
 int Count;
@@ -28,6 +25,10 @@ int N;
 
 ifstream f_in("in.txt");
 ofstream f_out("out.txt");
+
+bool cmp(data p, data q) {
+	return p.idx < q.idx;
+}
 
 ll parseInt(string s) {
 	ll sum = 0;
