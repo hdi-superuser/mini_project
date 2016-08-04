@@ -1,7 +1,7 @@
 /*
 	HDI - 6 Jun, 2016
 	Subset problems
-	Solution: Brute force with manual trick
+	Solution: Brute force with manual tricks
 	Time complexity: O(2^(N/2))
 */
 
